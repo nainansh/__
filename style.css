@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
+
+
+
+
+body{
+    height:100vh;
+    width: 100vw;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: nowrap;  
+    flex-direction: column;
+    background-color:rgb(209, 82, 209) ;
+    background-image: transparent ;
+  
+}
+
+div{
+    border: transparent 0.2vw solid;
+    border-radius: 2.5vw;
+    overflow-y: scroll;
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.45vh;
+    padding:0.9vh;
+
+    -webkit-box-shadow: 10px 13px 30px 3px rgba(0,0,0,0..5);
+-moz-box-shadow: 10px 13px 30px 3px rgba(0,0,0,0..5);
+box-shadow: 10px 13px 30px 3px rgba(0,0,0,0.5)
+}
+
+
+.row{
+    background-color:rgb(8, 76, 167);
+    height: 16vh;
+    width:80vw;
+    color:rgb(187, 169, 169);
+}
+
+
+.row1{
+    background-color:rgb(165, 81, 207);
+    height: 16vh;
+    width:80vw;
+    color:rgb(225, 235, 240);
+}
+
+.row2{
+    background-color:rgb(173, 36, 146);
+    height: 16vh;
+    width:80vw;  
+    color:rgb(180, 199, 183);
+}
+
+.row3{
+    background-color:rgb(230, 70, 176);
+    height: 16vh;
+    color:rgb(216, 207, 207);
+    
+    width:80vw;
+}
